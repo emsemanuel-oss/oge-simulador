@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('jogobkg.jpg'); 
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.budget-display {
+    margin-bottom: 10px;
+}
+
+.allocation {
+    margin-bottom: 10px;
+}
+
+.allocation-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+label {
+    flex: 0 0 50%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 100px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
